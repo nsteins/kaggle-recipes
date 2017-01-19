@@ -1,0 +1,3 @@
+# kaggle-recipes
+
+I wrote these scripts to compete in the Kaggle ["What's Cooking?" challenge](https://www.kaggle.com/c/whats-cooking) where the goal is to predict a recipe's cuisine based only on the ingredient list. I tried a couple of different classifiers but found that a straightforward logistic regression based on a bag of words approach performed best. There is also a [script that identifies the most distinct ingredients to each cuisine](https://www.kaggle.com/rayleighjeans/whats-cooking/top-10-distinct-ingredients) which ended up not being helpful for building a classifier but still produced some interesting results.
